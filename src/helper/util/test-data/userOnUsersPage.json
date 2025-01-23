@@ -1,0 +1,30 @@
+[
+  {
+    "Last Name": "Tree",
+    "First Name": "Willow",
+    "Email": "willowtree88@canimmunize.ca",
+    "Active": "Active",
+    "Role": [
+      "Console User Manager",
+      "Super Admin"
+    ],
+    "Organizations":[
+      "Apex Care Pharmacy",
+      "Sunrise Wellness Pharmacy"
+    ]
+  },
+  {
+    "Last Name": "Test",
+    "First Name": "User",
+    "Email": "testuser@canimmunize.ca",
+    "Active": "Active",
+    "Role": [
+      "Console User Manager",
+      "Super Admin"
+    ],
+    "Organizations":[
+      "Apex Care Pharmacy",
+      "Sunrise Wellness Pharmacy"
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "UserInfo": { 
+    "First Name": "Sample",
+    "Last Name": "User",
+    "Email": "sampleuser@canimmunize.ca",
+    "Email Status": "Unverified",
+    "UserId": "a68405ec-d14e-496f-a405-d39a64a64d15",
+    "Account Status": "Active",
+    "Last Login": "January 21, 2025 8:16 PM"
+  },
+  "Roles": [
+    {
+      "Role": "Super Admin",
+      "Description": "VIT Team Member with full access to patients, clinics, calendars, appointments and Clinic Mode users"
+    },
+    {
+      "Role": "Clinic Owner Plus (Provincial Patient Access)",
+      "Description": "Clinic Owner able to manage all patients and their immunizations, as well as create schedules."
+    }
+  ],
+  "Organizations": [
+    {
+      "Name": "Apex Care Pharmacy",
+      "Organization Code": "Apex Care Pharmacy"
+    },
+    {
+      "Name": "Sunrise Wellness Pharmacy",
+      "Organization Code": "Sunrise Wellness Pharmacy"
+    }
+  ]
+}

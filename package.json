@@ -1,0 +1,34 @@
+{
+  "name": "play-ts-cucumber",
+  "version": "1.0.0",
+  "description": "Playwright Cucumber TS framework",
+  "main": "index.js",
+  "scripts": {
+    "debug": "cross-env ENV=dev PWDEBUG=1 DEBUG=pw:api cucumber-js --config=config/cucumber.js",
+    "pretest": "npx ts-node src/helper/report/init.ts",
+    "test": "cross-env ENV=dev FORCE_COLOR=0 cucumber-js --config=config/cucumber.js || true",
+    "posttest": "npx ts-node src/helper/report/report.ts",
+    "test:failed": "cucumber-js -p rerun @rerun.txt"
+  },
+  "keywords": [
+    "cucumber",
+    "cucumber - TS",
+    "playwright-cucumber"
+  ],
+  "author": "Karun Bezawada",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.0.1",
+    "@playwright/test": "^1.35.0",
+    "@types/node": "^22.10.7",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.1",
+    "multiple-cucumber-html-reporter": "^3.3.0",
+    "ts-node": "^10.9.1",
+    "winston": "^3.8.2"
+  },
+  "dependencies": {
+    "typescript": "^5.7.3"
+  }
+}
